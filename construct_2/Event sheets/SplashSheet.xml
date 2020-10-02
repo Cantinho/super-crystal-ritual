@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SplashSheet</name>
+    <events>
+        <include>SoundSheet</include>
+        <event-block sid="3595446982645112">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9931202451495141" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="8289849499388974" type="Audio">
+                    <param id="0" name="Audio file">crystal02_10_segundos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="54527543428711">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="9876207571142471" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="4158617611352023" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="933552408718548" type="Splash" />
+            </actions>
+        </event-block>
+        <event-block sid="9396839881535188">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="4308717255169946" type="Splash" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6208074947876562" type="System">
+                    <param id="0" name="Layout">Gameplay</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

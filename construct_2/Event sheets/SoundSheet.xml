@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SoundSheet</name>
+    <events>
+        <event-block sid="5533983453925727">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="205256617191968" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="6559066264113096" type="Audio">
+                    <param id="0" name="Audio file">crystal02_um_pedaco</param>
+                </action>
+                <action id="4" name="Preload" sid="3011405325577254" type="Audio">
+                    <param id="0" name="Audio file">crystal03_editado</param>
+                </action>
+                <action id="4" name="Preload" sid="4657291402323823" type="Audio">
+                    <param id="0" name="Audio file">crystal04_editado</param>
+                </action>
+                <action id="4" name="Preload" sid="9903905284523924" type="Audio">
+                    <param id="0" name="Audio file">crystal05_editado</param>
+                </action>
+                <action id="4" name="Preload" sid="2344591015430952" type="Audio">
+                    <param id="0" name="Audio file">crystal06_editado</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

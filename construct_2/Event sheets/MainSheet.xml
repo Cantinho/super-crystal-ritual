@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainSheet</name>
+    <events>
+        <include>SoundSheet</include>
+        <event-block sid="9137885105500243">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="380629688873649" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="3516216922004945" type="RedCrystal" />
+            </actions>
+        </event-block>
+        <event-block sid="8745058467974983">
+            <conditions>
+                <condition id="5" name="On any finished" sid="2195370533483819" type="BlueCrystal" />
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="3172148235466011" type="RedCrystal">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4144606085693403">
+            <conditions>
+                <condition id="5" name="On any finished" sid="9372458234209669" type="RedCrystal" />
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="7852105927712496" type="BlueCrystal">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
