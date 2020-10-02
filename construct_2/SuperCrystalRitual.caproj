@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>SuperCrystalRitual</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>14fir0wto7bt4</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>320</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Splash</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-folder expanded="1" name="Collectables">
+            <object-type name="GoldenStar" sid="8330135837804155">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7780604123417479" speed="5">
+                        <frame duration="1" hotspotX="0.508287" hotspotY="0.511494" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\SheepJumpingDesign\GoldenStar.png">
+                            <collision-poly>
+                                <point x="0.340599" y="0.330484" />
+                                <point x="0.463215" y="0" />
+                                <point x="0.538828" y="0.00569801" />
+                                <point x="0.645777" y="0.324786" />
+                                <point x="0.972752" y="0.340456" />
+                                <point x="1" y="0.421653" />
+                                <point x="0.743869" y="0.623932" />
+                                <point x="0.824251" y="0.9651" />
+                                <point x="0.771117" y="1" />
+                                <point x="0.506812" y="0.820513" />
+                                <point x="0.226839" y="1" />
+                                <point x="0.167575" y="0.964387" />
+                                <point x="0.264305" y="0.633903" />
+                                <point x="0" y="0.418803" />
+                                <point x="0.027248" y="0.344017" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="0" name="UI">
+            <object-type name="ScoreLabel" sid="5081014708454471">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Score" sid="2205665908774924">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Heart1" sid="2416247350295857">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8703266553627585" speed="5">
+                        <frame duration="1" hotspotX="0.489362" hotspotY="0.488372" original-source="C:\Users\samirtf\Documents\PyxelEdit\super_crystal_ritual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Heart2" sid="9026151273222037">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1210416480356782" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.453488" original-source="C:\Users\samirtf\Documents\PyxelEdit\super_crystal_ritual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Heart3" sid="8941930527187185">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4064838362052519" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.476744" original-source="C:\Users\samirtf\Documents\PyxelEdit\super_crystal_ritual.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TextoAjuda" sid="8953022416082497">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder expanded="1" name="BACKGROUND">
+            <object-type name="Background" sid="8887872974847081">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-folder expanded="0" name="Main">
+            <object-type name="TiledBackground" sid="2480077508189343">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\samirtf\Pictures\samirtf\super_crystal_ritual_reduzido_no_crystals.png" />
+            </object-type>
+            <object-type name="BlueCrystal" sid="4116860571443315">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4634101061444459" speed="5">
+                        <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\samirtf\Pictures\samirtf\blue_crystal\1.png">
+                            <collision-poly>
+                                <point x="0.274131" y="0.218462" />
+                                <point x="0.498069" y="0.0676923" />
+                                <point x="0.671815" y="0.261538" />
+                                <point x="0.857143" y="0.498462" />
+                                <point x="0.826255" y="0.861538" />
+                                <point x="0.498069" y="0.889231" />
+                                <point x="0.046332" y="0.963077" />
+                                <point x="0.0888031" y="0.498462" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\samirtf\Pictures\samirtf\blue_crystal\2.png" />
+                        <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\samirtf\Pictures\samirtf\blue_crystal\3.png" />
+                        <frame duration="1" hotspotX="0.505882" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.274131" y="0.218462" />
+                                <point x="0.498069" y="0.0676923" />
+                                <point x="0.671815" y="0.261538" />
+                                <point x="0.857143" y="0.498462" />
+                                <point x="0.826255" y="0.861538" />
+                                <point x="0.498069" y="0.889231" />
+                                <point x="0.046332" y="0.963077" />
+                                <point x="0.0888031" y="0.498462" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RedCrystal" sid="5331104280516001">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615127308570264" speed="5">
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.504951" original-source="C:\Users\samirtf\Pictures\samirtf\red_crystal\1.png">
+                            <collision-poly>
+                                <point x="0.223256" y="0.157895" />
+                                <point x="0.497674" y="0.0230263" />
+                                <point x="0.772093" y="0.161184" />
+                                <point x="0.967442" y="0.5" />
+                                <point x="0.818605" y="0.871711" />
+                                <point x="0.497674" y="0.980263" />
+                                <point x="0.204651" y="0.855263" />
+                                <point x="0.0604651" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.504951" original-source="C:\Users\samirtf\Pictures\samirtf\red_crystal\2.png" />
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.504951" original-source="C:\Users\samirtf\Pictures\samirtf\red_crystal\3.png" />
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.504951">
+                            <collision-poly>
+                                <point x="0.223256" y="0.157895" />
+                                <point x="0.497674" y="0.0230263" />
+                                <point x="0.772093" y="0.161184" />
+                                <point x="0.967442" y="0.5" />
+                                <point x="0.818605" y="0.871711" />
+                                <point x="0.497674" y="0.980263" />
+                                <point x="0.204651" y="0.855263" />
+                                <point x="0.0604651" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="0" name="Splash">
+            <object-type name="Splash" sid="3600182352843232">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Fade" sid="7081059591383888">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8471654530620473" speed="5">
+                        <frame duration="1" hotspotX="0.544324" hotspotY="0.54262" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\super_crystal_ritual.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.544348" y="0" />
+                                <point x="1" y="0.0395834" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.542661" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="1" name="construct">
+            <object-type name="Touch" sid="1911040164030779">
+                <plugin id="Touch" />
+            </object-type>
+            <object-type name="Keyboard" sid="3168341435864336">
+                <plugin id="Keyboard" />
+            </object-type>
+            <object-type name="Function" sid="6587633446226959">
+                <plugin id="Function" />
+            </object-type>
+            <object-type name="Audio" sid="5667481467236931">
+                <plugin id="Audio" />
+            </object-type>
+        </object-folder>
+        <object-folder expanded="1" name="Gameplay">
+            <object-type name="Player" sid="2021044445760069">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="goldenStars" sid="968788081198836" type="number" />
+                    <instance-variable name="alive" sid="7910468236421295" type="boolean" />
+                    <instance-variable name="lives" sid="5677207199157937" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="6038459986212093">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder expanded="1">
+                    <animation framecount="4" loop="0" name="Red" pingpong="0" repeatcount="1" repeatto="0" sid="6149181833345182" speed="70">
+                        <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.938725" />
+                                <point x="0" y="0.938725" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="C:\Users\samirtf\Pictures\samirtf\red_crystal\2.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="C:\Users\samirtf\Pictures\samirtf\red_crystal\3.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="1">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.938725" />
+                                <point x="0" y="0.938725" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="4" loop="0" name="Blue" pingpong="0" repeatcount="1" repeatto="0" sid="5643866551100264" speed="70">
+                        <frame duration="1" hotspotX="0.535714" hotspotY="1" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\blue_crystal.png">
+                            <collision-poly>
+                                <point x="0.279762" y="0.22381" />
+                                <point x="0.5" y="0.0761905" />
+                                <point x="0.672619" y="0.261905" />
+                                <point x="0.85119" y="0.5" />
+                                <point x="0.821429" y="0.857143" />
+                                <point x="0.5" y="0.885714" />
+                                <point x="0.0535714" y="0.957143" />
+                                <point x="0.0952381" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.535714" hotspotY="1" original-source="C:\Users\samirtf\Pictures\samirtf\blue_crystal\2.png" />
+                        <frame duration="1" hotspotX="0.517857" hotspotY="1" original-source="C:\Users\samirtf\Pictures\samirtf\blue_crystal\3.png" />
+                        <frame duration="1" hotspotX="0.535714" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.279762" y="0.22381" />
+                                <point x="0.5" y="0.0761905" />
+                                <point x="0.672619" y="0.261905" />
+                                <point x="0.85119" y="0.5" />
+                                <point x="0.821429" y="0.857143" />
+                                <point x="0.5" y="0.885714" />
+                                <point x="0.0535714" y="0.957143" />
+                                <point x="0.0952381" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Platform" sid="7966941622745649">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="color" sid="122874932339067" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="5679304455076391">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="6265186426665348" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.545455" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\gray_plataform.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.517062" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.517062" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="BluePlatform" pingpong="0" repeatcount="1" repeatto="0" sid="2006771447701401" speed="5">
+                        <frame duration="1" hotspotX="0.506329" hotspotY="0.545455" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\blue_crystal_animation_0.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.512692" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.0128565" />
+                                <point x="1" y="1" />
+                                <point x="0.512692" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="4" loop="1" name="BluePlatformTouched" pingpong="0" repeatcount="1" repeatto="0" sid="3482853942806352" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\blue_crystal_animation_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\blue_crystal_animation_2.png" />
+                        <frame duration="1" hotspotX="0.506329" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\blue_crystal_animation_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.515152">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.512692" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.0128565" />
+                                <point x="1" y="1" />
+                                <point x="0.512692" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="RedPlatform" pingpong="0" repeatcount="1" repeatto="0" sid="1815579450712254" speed="5">
+                        <frame duration="1" hotspotX="0.509554" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal_animation_0.png">
+                            <collision-poly>
+                                <point x="0.00891119" y="0" />
+                                <point x="0.512353" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.00834167" />
+                                <point x="1" y="1" />
+                                <point x="0.512353" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="4" loop="1" name="RedPlatformTouched" pingpong="0" repeatcount="1" repeatto="0" sid="4576760548819282" speed="5">
+                        <frame duration="1" hotspotX="0.503185" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal_animation_3.png" />
+                        <frame duration="1" hotspotX="0.509554" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal_animation_2.png" />
+                        <frame duration="1" hotspotX="0.503185" hotspotY="0.545455" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal_animation_1.png" />
+                        <frame duration="1" hotspotX="0.503185" hotspotY="0.515152" original-source="C:\Users\samirtf\Documents\samir\projetos\projetos_pessoais\super_crystal_ritual\imagens\red_crystal_animation_0.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Gameplay.xml</layout>
+        <layout>Splash.xml</layout>
+        <layout>Main.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>GameplaySheet.xml</event-sheet>
+        <event-sheet>SplashSheet.xml</event-sheet>
+        <event-sheet>MainSheet.xml</event-sheet>
+        <event-sheet>SoundSheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="23">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="24" />
+        <global-instance type="Function" uid="26" />
+        <global-instance type="Audio" uid="37">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder expanded="1">
+        <file name="crystal03_editado.m4a" />
+        <file name="crystal03_editado.ogg" />
+        <file name="crystal04_editado.m4a" />
+        <file name="crystal04_editado.ogg" />
+        <file name="crystal05_editado.m4a" />
+        <file name="crystal05_editado.ogg" />
+        <file name="crystal06_editado.m4a" />
+        <file name="crystal06_editado.ogg" />
+    </sounds-folder>
+    <music-folder expanded="1">
+        <file name="crystal02_10_segundos.m4a" />
+        <file name="crystal02_10_segundos.ogg" />
+        <file name="crystal02_um_pedaco.m4a" />
+        <file name="crystal02_um_pedaco.ogg" />
+    </music-folder>
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
